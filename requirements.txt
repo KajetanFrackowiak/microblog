@@ -1,0 +1,11 @@
+Flask
+Flask-WTF
+Flask-Login
+Flask-Mail
+SQLAlchemy
+WTForms
+Werkzeug
+email-validator
+itsdangerous
+Jinja2
+pytest
