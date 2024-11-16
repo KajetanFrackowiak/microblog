@@ -3,6 +3,7 @@ Flask-WTF
 Flask-Login
 Flask-Mail
 Flask-SQLAlchemy
+Flask-Migrate
 WTForms
 Werkzeug
 email-validator
