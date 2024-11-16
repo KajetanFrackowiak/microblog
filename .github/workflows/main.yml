@@ -34,4 +34,13 @@ jobs:
       run: |
         export FLASK_APP=microblog.py 
         export FLASK_ENV=development  
-        flask run  # Run the Flask app
+        flask run &
+        sleep 5
+
+    - name: Verify Application is Running
+      run: |
+        curl -I http://127.0.0.1:5000 || exit 1
+
+    - name: Stop Flask Application
+      run: |
+        pkill -f "flask run"
