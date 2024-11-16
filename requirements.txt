@@ -11,3 +11,4 @@ email-validator
 itsdangerous
 Jinja2
 pytest
+dotenv
